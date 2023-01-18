@@ -66,6 +66,10 @@ aside{
     width: 30%;
 }
 
+.block1{
+    margin-bottom: 200px;
+}
+
 .article{
     width: 70%;
 }
@@ -88,4 +92,17 @@ aside{
 
 .price{
     opacity: 0.5;
+}
+.featured__block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.featured__title{
+    padding-left: 20px;
+}
+
+.featured__img{
+    width: 100px;
+    height: 100px;
 }

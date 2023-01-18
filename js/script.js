@@ -25,5 +25,18 @@ fetch('https://fakestoreapi.com/products')
 </div>
 `))
 
+const featured = document.getElementById("featured")
+
+fetch('https://fakestoreapi.com/products')
+    .then(res=>res.json())
+    .then(json => json.splice(17,20))
+    .then(json=> json.forEach(item=> featured.innerHTML+=`<div class="featured__block">
+<figure class="featured__block"><img src="${item.image}" class="featured__img">
+</figure>
+<h3 class="featured__title">${item.price}$</h3>
+
+</div>` ))
+
+
 
 
