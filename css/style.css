@@ -62,3 +62,30 @@ a {
     list-style-type: none;
     margin-bottom: 20px;
 }
+aside{
+    width: 30%;
+}
+
+.article{
+    width: 70%;
+}
+.gallery__block{
+    margin-top: 25px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 250px;
+    height: 250px;
+}
+
+.product__title{width: 200px}
+
+.price{
+    opacity: 0.5;
+}
