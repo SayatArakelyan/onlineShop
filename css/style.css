@@ -44,6 +44,7 @@ a {
 
 .search {
     border-radius: 4px;
+
 }
 
 .section {
@@ -105,4 +106,16 @@ aside{
 .featured__img{
     width: 100px;
     height: 100px;
+}
+
+/*.gallery .product__title{*/
+/*    font-size: 500px;*/
+/*}*/
+
+.hide{
+    display: none;
+}
+
+.gallery .gallery__block .hide{
+    display: none;
 }
