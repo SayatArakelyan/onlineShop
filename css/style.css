@@ -36,6 +36,9 @@ a {
     display: flex;
     list-style-type: none
 }
+ul{
+    cursor: pointer;
+}
 
 .nav__list {
     margin-right: 20px
@@ -57,7 +60,9 @@ a {
     font-size: 40px;
     margin-bottom: 20px;
 }
-
+.close{
+    display: none;
+}
 
 .category__content{
     list-style-type: none;
@@ -108,10 +113,6 @@ aside{
     height: 100px;
 }
 
-/*.gallery .product__title{*/
-/*    font-size: 500px;*/
-/*}*/
-
 .hide{
     display: none;
 }
@@ -119,3 +120,32 @@ aside{
 .gallery .gallery__block .hide{
     display: none;
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.pagination__item {
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.pagination__item--active {
+    font-weight: 800;
+    color: black;
+    opacity: 0.5}
